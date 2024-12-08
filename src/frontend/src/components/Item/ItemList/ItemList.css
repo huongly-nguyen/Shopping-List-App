@@ -1,0 +1,87 @@
+.item-list {
+  padding: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+}
+
+.item-list .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.item-list .header h1 {
+  font-size: 1.7rem;
+  color: #333;
+}
+
+.add-item-btn {
+  background-color: #ffa33b;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+  border: none;
+}
+.add-item-btn:hover {
+  background-color: #ff6a00;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item {
+  background-color: #fff;
+  padding: 1rem;
+  margin: 0.75rem 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+  transition: transform 0.2s ease-in-out;
+}
+
+.item h2 {
+  font-size: 1.3rem;
+  color: #333;
+  margin: 0;
+  flex-grow: 1;
+  margin-right: 2rem;
+}
+
+.item p {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.item .buttons {
+  display: flex;
+  gap: 1rem;
+  align-self: flex-start;
+}
+
+.item button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.25rem;
+  color: #007BFF;
+  transition: color 0.3s ease;
+}

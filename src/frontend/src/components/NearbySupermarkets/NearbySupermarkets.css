@@ -1,0 +1,44 @@
+.nearby-supermarkets-container h1 {
+  font-size: 2rem;
+  color: #333;
+  text-align: left;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+}
+
+.nearby-supermarkets-container ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  margin: 1rem;
+}
+
+.nearby-supermarkets-container ul li {
+  background-color: #fff;
+  padding: 1.2rem;
+  margin: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+.nearby-supermarkets-container ul li strong {
+  font-size: 1.5rem;
+  color: #333;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.nearby-supermarkets-container ul li p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+.nearby-supermarkets-container ul li p:last-child {
+  font-size: 0.9rem;
+  color: #777;
+  font-style: italic;
+}

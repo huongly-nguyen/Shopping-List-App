@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('./assets/bg-image.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  font-family: 'Cambria', serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed; /* Keep the background image fixed */
+}
+
+
+.app-container {
+  background-color: #f5f5e2; /* Light cream color (beige) */
+  border-radius: 15px; /* Rounded corners */
+  padding: 2rem; /* Padding inside the container */
+  min-width: 1200px; /* Ensure the container doesn't get too narrow */
+  box-sizing: border-box; /* Include padding in the width/height calculation */
+  margin: 5rem; /* Margin of 5rem from all sides */
+  opacity: 0.95;
+}
